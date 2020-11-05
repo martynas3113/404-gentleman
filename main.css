@@ -1,6 +1,7 @@
+
 body > div {
-    width: 1200px;
-    margin-left: calc((100% - 1200px)/ 2);
+    width: 100%;
+    /* margin-left: calc((100% - 1200px)/ 2); */
     display: inline-block;
 }
 
@@ -13,28 +14,37 @@ header {
         float: left;
         color: white;
         height: 40px;
-        margin-left: 20px;
+        margin-left: 10px;
         
     }
 
     nav{
         display: inline-block;
         float: right;
-    }
-
-    a{
-        display: inline-block;
+        margin-top: 10px;
+        font-size: 18px;
         
     }
+
+        a{
+            display: inline-block;
+            line-height: 10px;
+            padding: 15px;
+            margin-left: 10px;
+            text-decoration: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #5D5D65;
+        }
 
 
     main {
         background-color: #F2F2F4;
-        margin-top: 20px;
+        margin-top: 5px;
+        
     }
 
         main > img {
-
-
-        display: inline-block;
+           
+            width: 83%;
+            display: inline-block;
     }
