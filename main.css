@@ -1,0 +1,40 @@
+body > div {
+    width: 1200px;
+    margin-left: calc((100% - 1200px)/ 2);
+    display: inline-block;
+}
+
+header {
+    display: inline-block;
+    width: 100%
+}
+    header > img {
+        display: inline-block;
+        float: left;
+        color: white;
+        height: 40px;
+        margin-left: 20px;
+        
+    }
+
+    nav{
+        display: inline-block;
+        float: right;
+    }
+
+    a{
+        display: inline-block;
+        
+    }
+
+
+    main {
+        background-color: #F2F2F4;
+        margin-top: 20px;
+    }
+
+        main > img {
+
+
+        display: inline-block;
+    }
